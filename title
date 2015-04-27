@@ -1,0 +1,12 @@
+#!/bin/sh
+#
+if [ $# = 0 ]; then
+  host=`hostname -s`
+else
+  host=$1
+fi
+#
+echo -n "]0;$host"
+#
+exit
+#
